@@ -1,0 +1,52 @@
+ Solute transport with nonlinear cation adsorption                       
+ 
+ Program HYDRUS2
+ Date:  10.12.    Time:  17:42: 6
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = cm   , T = days , M = mmol 
+
+ Time [T]             Total     Sub-region number ...
+
+       .0000                      1
+ Area    [V]          .108E+02   .108E+02
+ Volume  [V]          .680E+01   .680E+01
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .000E+00         .0
+ ConcVol [VM/L3] 1    .000E+00   .000E+00
+ cMean   [M/L3]  1    .000E+00   .000E+00
+
+      5.0000                      1
+ Area    [V]          .108E+02   .108E+02
+ ConcVol [VM/L3] 1    .279E+03   .279E+03
+ cMean   [M/L3]  1    .524E+01   .524E+01
+ CncBalT [VM/L3] 1   -.128E+01
+ CncBalR [%]     1        .346
+
+     10.0000                      1
+ Area    [V]          .108E+02   .108E+02
+ ConcVol [VM/L3] 1    .456E+03   .456E+03
+ cMean   [M/L3]  1    .734E+01   .734E+01
+ CncBalT [VM/L3] 1   -.337E+01
+ CncBalR [%]     1        .402
+
+     15.0000                      1
+ Area    [V]          .108E+02   .108E+02
+ ConcVol [VM/L3] 1    .542E+03   .542E+03
+ cMean   [M/L3]  1    .825E+01   .825E+01
+ CncBalT [VM/L3] 1   -.501E+01
+ CncBalR [%]     1        .368
+
+     20.0000                      1
+ Area    [V]          .108E+02   .108E+02
+ ConcVol [VM/L3] 1    .287E+03   .287E+03
+ cMean   [M/L3]  1    .524E+01   .524E+01
+ CncBalT [VM/L3] 1   -.540E+01
+ CncBalR [%]     1        .334
+
+     25.0000                      1
+ Area    [V]          .108E+02   .108E+02
+ ConcVol [VM/L3] 1    .843E+02   .843E+02
+ cMean   [M/L3]  1    .225E+01   .225E+01
+ CncBalT [VM/L3] 1   -.423E+01
+ CncBalR [%]     1        .233

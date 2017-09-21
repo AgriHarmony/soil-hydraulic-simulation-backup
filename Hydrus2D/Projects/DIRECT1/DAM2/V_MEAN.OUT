@@ -1,0 +1,14 @@
+ Flow under a dam                                                        
+ 
+ Program HYDRUS2
+ Date:  18. 2.    Time:  11:49:50
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = m    , T = days , M = mmol 
+ All fluxes (v) are positive out of the region
+
+       Time       rAtm       rRoot      vAtm       vRoot      vKode3     vKode1     vSeep      vDrain     vBottom...
+        [T]      [L/T]       [L/T]     [L/T]       [L/T]       [V/T]      [V/T]     [V/T]       [V/T]      [V/T]
+
+         .0100   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.416E+01   .416E+01   .000E+00   .000E+00
+end

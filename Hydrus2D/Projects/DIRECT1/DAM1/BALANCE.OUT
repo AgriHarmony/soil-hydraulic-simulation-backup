@@ -1,0 +1,18 @@
+ Flow under a dam                                                        
+ 
+ Program HYDRUS2
+ Date:  17. 2.    Time:  14:46:30
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = m    , T = days , M = mmol 
+
+ Time [T]             Total     Sub-region number ...
+
+       .0000                      1
+ Area    [V]          .894E+04   .894E+04
+ Volume  [V]          .384E+04   .384E+04
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .356E+02       35.6
+
+       .1000                      1
+ Area    [V]          .894E+04   .894E+04

@@ -1,0 +1,15 @@
+:Base Meshgen.HLP>main
+:Title MESHGEN-2D
+1 Introduction
+2 Overview=IDH_CONTENTS
+2 General remarks=General_remarks
+1 Using MESHGEN-2D
+2 Computational Domain Design=Introduction_to_GEOMETRY
+2 FEM Mesh Generation=Introduction_to_MESHGEN
+2 Menu Commands=IDH_CONTENTS
+1 Tips & Tricks
+2 Trouble Shooting=Trouble_Shooting
+1 Contacting PC-Progress s.r.o.
+2 Addresses=Adresses
+1 Legal Information
+2 Licence, Copyright, and Disclaimer=Licence_Copyright_and_Disclaimer

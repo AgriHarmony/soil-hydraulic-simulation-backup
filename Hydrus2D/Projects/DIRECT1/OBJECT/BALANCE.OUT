@@ -1,0 +1,18 @@
+ Welcome to HYDRUS-2D                                                    
+ 
+ Program HYDRUS2
+ Date:  18. 2.    Time:  15:54:45
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = cm   , T = days , M = mmol 
+
+ Time [T]             Total     Sub-region number ...
+
+       .0000                      1
+ Area    [V]          .188E+05   .188E+05
+ Volume  [V]          .188E+05   .188E+05
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .500E+02       50.0
+
+       .1000                      1
+ Area    [V]          .188E+05   .188E+05

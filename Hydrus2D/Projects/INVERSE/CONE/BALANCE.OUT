@@ -1,0 +1,103 @@
+ Welcome to HYDRUS-2D                                                    
+ 
+ Program HYDRUS2
+ Date:  20. 2.    Time:   4:35:34
+ Time independent boundary conditions
+ Axisymmetric flow, V = L*L*L
+ Units: L = cm   , T = sec  , M = mmol 
+
+ Time [T]             Total     Sub-region number ...
+
+       .0000                      1
+ Area    [V]          .124E+07   .124E+07
+ Volume  [V]          .135E+05   .135E+05
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]         -.486E+02      -48.6
+
+     30.0000                      1
+ Area    [V]          .124E+07   .124E+07
+ Volume  [V]          .146E+05   .146E+05
+ InFlow  [V/T]        .312E+02   .312E+02
+ hMean   [L]         -.484E+02      -48.4
+ WatBalT [V]         -.671E-02
+ WatBalR [%]              .001
+
+     60.0000                      1
+ Area    [V]          .124E+07   .124E+07
+ Volume  [V]          .155E+05   .155E+05
+ InFlow  [V/T]        .295E+02   .295E+02
+ hMean   [L]         -.483E+02      -48.3
+ WatBalT [V]         -.684E-02
+ WatBalR [%]              .000
+
+     90.0000                      1
+ Area    [V]          .124E+07   .124E+07
+ Volume  [V]          .163E+05   .163E+05
+ InFlow  [V/T]        .286E+02   .286E+02
+ hMean   [L]         -.482E+02      -48.2
+ WatBalT [V]         -.183E-01
+ WatBalR [%]              .001
+
+    120.0000                      1
+ Area    [V]          .124E+07   .124E+07
+ Volume  [V]          .172E+05   .172E+05
+ InFlow  [V/T]        .281E+02   .281E+02
+ hMean   [L]         -.481E+02      -48.1
+ WatBalT [V]         -.178E-01
+ WatBalR [%]              .000
+
+    150.0000                      1
+ Area    [V]          .124E+07   .124E+07
+ Volume  [V]          .180E+05   .180E+05
+ InFlow  [V/T]        .277E+02   .277E+02
+ hMean   [L]         -.480E+02      -48.0
+ WatBalT [V]         -.215E-01
+ WatBalR [%]              .000
+
+    180.0000                      1
+ Area    [V]          .124E+07   .124E+07
+ Volume  [V]          .189E+05   .189E+05
+ InFlow  [V/T]        .275E+02   .275E+02
+ hMean   [L]         -.479E+02      -47.9
+ WatBalT [V]         -.156E-01
+ WatBalR [%]              .000
+
+    210.0000                      1
+ Area    [V]          .124E+07   .124E+07
+ Volume  [V]          .197E+05   .197E+05
+ InFlow  [V/T]        .273E+02   .273E+02
+ hMean   [L]         -.478E+02      -47.8
+ WatBalT [V]         -.684E-02
+ WatBalR [%]              .000
+
+    240.0000                      1
+ Area    [V]          .124E+07   .124E+07
+ Volume  [V]          .205E+05   .205E+05
+ InFlow  [V/T]        .271E+02   .271E+02
+ hMean   [L]         -.477E+02      -47.7
+ WatBalT [V]         -.127E-01
+ WatBalR [%]              .000
+
+    270.0000                      1
+ Area    [V]          .124E+07   .124E+07
+ Volume  [V]          .213E+05   .213E+05
+ InFlow  [V/T]        .270E+02   .270E+02
+ hMean   [L]         -.476E+02      -47.6
+ WatBalT [V]         -.244E-02
+ WatBalR [%]              .000
+
+    300.0000                      1
+ Area    [V]          .124E+07   .124E+07
+ Volume  [V]          .221E+05   .221E+05
+ InFlow  [V/T]        .268E+02   .268E+02
+ hMean   [L]         -.475E+02      -47.5
+ WatBalT [V]         -.879E-02
+ WatBalR [%]              .000
+
+    400.0000                      1
+ Area    [V]          .124E+07   .124E+07
+ Volume  [V]          .248E+05   .248E+05
+ InFlow  [V/T]        .266E+02   .266E+02
+ hMean   [L]         -.472E+02      -47.2
+ WatBalT [V]         -.977E-03
+ WatBalR [%]              .000

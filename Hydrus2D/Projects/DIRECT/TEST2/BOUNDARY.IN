@@ -1,0 +1,14 @@
+*** BLOCK ?: BOUNDARY INFORMATION *********************************************
+    NumBP     NObs  SeepF  FreeD DrainF  qQWLF
+        4        5      f      f      f      t
+Node Number Array
+      1       2      34      35 
+Width Array
+    0.5     0.5     0.5     0.5 
+Length of soil surface associated with transpiration
+              1
+  GWL0L        Aqh        Bqh                       (if qGWLF=f then Aqh=Bqh=0)
+    230     -0.1687    -0.02674
+Observation nodes Node(1,....NObs)
+     9     14     41     45     49 
+*** End of input file 'BOUNDARY.IN' *******************************************

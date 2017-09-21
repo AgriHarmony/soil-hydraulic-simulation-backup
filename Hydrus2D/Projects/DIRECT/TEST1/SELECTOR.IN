@@ -1,0 +1,30 @@
+Pcp_File_Version=2
+*** BLOCK A: BASIC INFORMATION *****************************************
+Heading
+Example 1 - Column Test
+LUnit  TUnit  MUnit  (indicated units are obligatory for all input data)
+cm
+sec
+mmol
+Kat (0:horizontal plane, 1:axisymmetric vertical flow, 2:vertical plane)
+  2
+MaxIt   TolTh   TolH InitH/W  (max. number of iterations and tolerances)
+  20   0.0001    0.1     f
+lWat lChem lSink Short Flux lScrn AtmIn lTemp lWTDep lEquil lExtGen lInv
+ t     f     f     f     t    t     f     f     f      t      f      f
+*** BLOCK B: MATERIAL INFORMATION **************************************
+NMat    NLay    hTab1   hTabN
+  1       1    0.0001     200
+    Model   Hysteresis
+      1          0
+  thr    ths   Alfa     n         Ks      l     thm    tha    thk       Kk
+  0.02   0.35  0.041  1.964   0.000722    0.5   0.35   0.02 0.2879   0.000695 
+*** BLOCK C: TIME INFORMATION ******************************************
+        dt       dtMin       dtMax     DMul    DMul2  ItMin ItMax  MPL
+          1        0.01          60     1.1    0.33     3     7     7
+      tInit        tMax
+          0        7200
+TPrint(1),TPrint(2),...,TPrint(MPL)
+         60         900        1800        2700        3600        5400 
+       7200 
+*** END OF INPUT FILE 'SELECTOR.IN' ************************************

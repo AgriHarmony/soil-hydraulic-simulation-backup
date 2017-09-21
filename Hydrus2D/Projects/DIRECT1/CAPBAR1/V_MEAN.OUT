@@ -1,0 +1,21 @@
+ Chamber simulation                                                      
+ 
+ Program HYDRUS2
+ Date:  22. 2.    Time:  17:13:43
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = cm   , T = hours, M = -    
+ All fluxes (v) are positive out of the region
+
+       Time       rAtm       rRoot      vAtm       vRoot      vKode3     vKode1     vSeep      vDrain     vBottom...
+        [T]      [L/T]       [L/T]     [L/T]       [L/T]       [V/T]      [V/T]     [V/T]       [V/T]      [V/T]
+
+        1.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.161E+03   .000E+00   .000E+00   .121E+04
+        5.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.161E+03   .000E+00   .000E+00   .258E+03
+       10.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.161E+03   .000E+00   .000E+00   .168E+03
+       15.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.161E+03   .000E+00   .000E+00   .165E+03
+       20.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.161E+03   .000E+00   .000E+00   .165E+03
+       30.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.161E+03   .000E+00   .000E+00   .164E+03
+       40.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.161E+03   .000E+00   .000E+00   .162E+03
+       50.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.161E+03   .000E+00   .000E+00   .161E+03
+end

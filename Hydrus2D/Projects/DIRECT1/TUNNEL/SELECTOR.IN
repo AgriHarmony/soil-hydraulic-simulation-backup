@@ -1,0 +1,43 @@
+Pcp_File_Version=2
+*** BLOCK A: BASIC INFORMATION *****************************************
+Heading
+Welcome to HYDRUS-2D
+LUnit  TUnit  MUnit  (indicated units are obligatory for all input data)
+m
+days
+mmol
+Kat (0:horizontal plane, 1:axisymmetric vertical flow, 2:vertical plane)
+  2
+MaxIt   TolTh   TolH InitH/W  (max. number of iterations and tolerances)
+  20   0.0001  0.005     f
+lWat lChem lSink Short Flux lScrn AtmIn lTemp lWTDep lEquil lExtGen lInv
+ t     t     f     t     t    t     f     f     f      t      t      f
+*** BLOCK B: MATERIAL INFORMATION **************************************
+NMat    NLay    hTab1   hTabN
+  1       1    0.0001       2
+    Model   Hysteresis
+      0          0
+  thr    ths   Alfa     n         Ks      l
+ 0.078   0.43    3.6   1.56     0.2496    0.5 
+*** BLOCK C: TIME INFORMATION ******************************************
+        dt       dtMin       dtMax     DMul    DMul2  ItMin ItMax  MPL
+     0.0001      1e-005           5     1.2     0.5     3     7    10
+      tInit        tMax
+          0         100
+TPrint(1),TPrint(2),...,TPrint(MPL)
+         10          20          30          40          50          60 
+         70          80          90         100 
+*** BLOCK G: SOLUTE TRANSPORT INFORMATION *****************************************************
+ Epsi  lUpW  lArtD lTDep    cTolA    cTolR   MaxItC    PeCr  Nu.of Solutes Tortuosity
+  0.5     f     t     f         0         0     1        2        1         t
+     Bulk.d.     DisperL.      DisperT     Frac      ThImob (1..NMat)
+        1.5         0.5        0.05           1           0 
+         DifW       DifG                n-th solute
+          0           0 
+         Ks          Nu        Beta       Henry       SnkL1       SnkS1       SnkG1       SnkL1'      SnkS1'      SnkG1'      SnkL0       SnkS0       SnkG0        Alfa
+          0           0           1           0           0           0           0           0           0           0           0           0           0           0 
+       cTop        cBot
+          1           0           0           0           0           0           0           0           0 
+      tPulse
+         10
+*** END OF INPUT FILE 'SELECTOR.IN' ************************************

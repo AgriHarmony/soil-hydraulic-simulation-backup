@@ -1,0 +1,74 @@
+ Solute transport with kinetic linear cation adsorption                  
+ 
+ Program HYDRUS2
+ Date:  10.12.    Time:  17: 9: 6
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = cm   , T = days , M = mmol 
+
+ Time [T]             Total     Sub-region number ...
+
+       .0000                      1
+ Area    [V]          .300E+02   .300E+02
+ Volume  [V]          .133E+02   .133E+02
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .000E+00         .0
+ ConcVol [VM/L3] 1    .000E+00   .000E+00
+ ConcVlIm[VM/L3] 1    .000E+00   .000E+00
+ cMean   [M/L3]  1    .000E+00   .000E+00
+
+       .5000                      1
+ Area    [V]          .300E+02   .300E+02
+ ConcVol [VM/L3] 1    .163E+03   .163E+03
+ ConcVlIm[VM/L3] 1    .842E+01   .842E+01
+ cMean   [M/L3]  1    .493E+01   .493E+01
+ CncBalT [VM/L3] 1   -.252E-03
+ CncBalR [%]     1        .000
+
+      1.0000                      1
+ Area    [V]          .300E+02   .300E+02
+ ConcVol [VM/L3] 1    .311E+03   .311E+03
+ ConcVlIm[VM/L3] 1    .310E+02   .310E+02
+ cMean   [M/L3]  1    .943E+01   .943E+01
+ CncBalT [VM/L3] 1   -.137E+00
+ CncBalR [%]     1        .040
+
+      2.5000                      1
+ Area    [V]          .300E+02   .300E+02
+ ConcVol [VM/L3] 1    .560E+03   .560E+03
+ ConcVlIm[VM/L3] 1    .142E+03   .142E+03
+ cMean   [M/L3]  1    .170E+02   .170E+02
+ CncBalT [VM/L3] 1   -.133E+02
+ CncBalR [%]     1       1.332
+
+      5.0000                      1
+ Area    [V]          .300E+02   .300E+02
+ ConcVol [VM/L3] 1    .613E+03   .613E+03
+ ConcVlIm[VM/L3] 1    .284E+03   .284E+03
+ cMean   [M/L3]  1    .186E+02   .186E+02
+ CncBalT [VM/L3] 1   -.175E+02
+ CncBalR [%]     1        .698
+
+      7.0000                      1
+ Area    [V]          .300E+02   .300E+02
+ ConcVol [VM/L3] 1    .431E+03   .431E+03
+ ConcVlIm[VM/L3] 1    .335E+03   .335E+03
+ cMean   [M/L3]  1    .131E+02   .131E+02
+ CncBalT [VM/L3] 1   -.188E+02
+ CncBalR [%]     1        .526
+
+     10.0000                      1
+ Area    [V]          .300E+02   .300E+02
+ ConcVol [VM/L3] 1    .567E+02   .567E+02
+ ConcVlIm[VM/L3] 1    .183E+03   .183E+03
+ cMean   [M/L3]  1    .172E+01   .172E+01
+ CncBalT [VM/L3] 1   -.339E+01
+ CncBalR [%]     1        .082
+
+     20.0000                      1
+ Area    [V]          .300E+02   .300E+02
+ ConcVol [VM/L3] 1    .368E+01   .368E+01
+ ConcVlIm[VM/L3] 1    .138E+02   .138E+02
+ cMean   [M/L3]  1    .112E+00   .112E+00
+ CncBalT [VM/L3] 1    .187E+00
+ CncBalR [%]     1        .004

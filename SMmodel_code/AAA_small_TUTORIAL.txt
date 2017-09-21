@@ -1,0 +1,56 @@
+-------------------------------------------------------------------
+           SMmodel_GA_WEB : "Soil Water Balance Model"
+-------------------------------------------------------------------
+             TUTORIAL for the use of the Matlab CODE
+-------------------------------------------------------------------
+
+The model can be freely applied and used, just cite some of the references to the model reported below.
+The authors are highly interested to collaborate for the understanding of the model functioning and to improve its performance and applicability.
+
+For any questions please do not hesitate to contact:
+luca.brocca@irpi.cnr.it
+
+-------------------------------------------------------------------
+
+The following files are distributed
+
+1) MATLAB codes
+1.1) "SMmodel_GA_WEB.m": Soil Water Balance Model code
+1.2) "cal_SMmodel_GA_WEB.m": code for model calibration (requires optimization toolbox)
+1.3) "run_SMmodel_GA_WEB.m": code for model run and calibration
+
+2) Auxiliary file:
+     "X_optGA_WEB.txt": parameter values of the model
+     
+     W_0_RZ     =  PAR(1); % Initial condition
+     W_max      =  PAR(2); % Field capacity
+     Psi_av_L   =  PAR(3); % Psi/L parameter of infiltration
+     Ks_sup     =  PAR(4); % Ks parameter of infiltration
+     Ks_RZ      =  PAR(4); % Ks parameter of drainage
+     m_RZ       =  PAR(5); % exponent of drainage
+     Kc         =  PAR(6); % parameter of potential evapotranspiration
+
+3) INPUT file (example):
+     "COL_0204.txt": example file for soil moisture data at Colorso site (see Brocca et al., 2008)
+     It contains 4 columns
+     a) date (in numeric Matlab format)
+     b) rainfall depth (in mm)
+     c) air temperature (°C)
+     d) observed relative soil moisture data, (between 0-1)
+
+4) OUTPUT file:
+     "GAmodel_COL_0204.png": figure with the model output
+
+-------------------------------------------------------------------
+
+To run the model for your own data use the code "run_SMmodel_GA_WEB.m"
+e.g.: SMmodel_GA_WEB('COL_0204',load('X_optGA_WEB.txt'),1)
+-------------------------------------------------------------------
+
+Main Reference for the model:
+Brocca, L., Melone, F., Moramarco, T. (2008). On the estimation of antecedent wetness conditions in rainfall-runoff modelling. Hydrological Processes, 22 (5), 629-642, doi:10.1002/hyp.6629. http://dx.doi.org/10.1002/hyp.6629
+
+Other reference with the model application:
+[1] Ponziani, F., Pandolfo, C., Stelluti, M., Berni, N., Brocca, L., Moramarco, T. (2011). Assessment of rainfall thresholds and soil moisture modeling for operational hydrogeological risk prevention in the Umbria region (central Italy). Landslides, in press, doi:10.1007/s10346-011-0287-3. http://dx.doi.org/10.1007/s10346-011-0287-3
+[2] Brocca, L., Melone, F., Moramarco, T., Wagner, W., Hasenauer, S. (2010). ASCAT Soil Wetness Index validation through in-situ and modeled soil moisture data in central Italy. Remote Sensing of Environment, 114 (11), 2745-2755, doi:10.1016/j.rse.2010.06.009. http://dx.doi.org/10.1016/j.rse.2010.06.009
+[3] Brocca, L., Melone, F., Moramarco, T. (2005). Empirical and conceptual approaches for soil moisture estimation in view of event-based rainfall-runoff modeling. In: F. Maraga, M. Arattano (Eds), Progress in Surface and Subsurface Water Studies at the plot and Small Basin Scale, IHP-VI, Technical Documents in Hydrology, UNESCO, Paris, 77, 1-8, Working Series SC-2005/WS/56. http://147.213.145.2/svh/erb-proceedings/142088e_Torino.pdf

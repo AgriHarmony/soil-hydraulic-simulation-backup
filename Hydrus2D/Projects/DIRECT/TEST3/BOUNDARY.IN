@@ -1,0 +1,29 @@
+Pcp_File_Version=2
+*** BLOCK ?: BOUNDARY INFORMATION *********************************************
+    NumBP     NObs  SeepF  FreeD DrainF  qQWLF
+       30        4      t      f      f      f
+Node Number Array
+      1       2       3       4       5       6       7       8       9      10 
+     11      12      13      14      15      35      36      37      38      39 
+     40      41      42      43      44      45      46      47      48      49 
+Width Array
+      5      10      10      10     7.5     4.5       3       3     4.5       6 
+    7.5       9    12.5    17.5      10      10    17.5    12.5       9     7.5 
+      6     4.5       3       3     4.5     7.5      10      10      10       5 
+Length of soil surface associated with transpiration
+              0
+Observation nodes Node(1,....NObs)
+    94    159    250    260 
+*** BLOCK E: SEEPAGE INFORMATION (only if SeepF =.true.) *********************
+NSeep                                     (number of s.f. expected to develop)
+  1
+NSP(1),NSP(2),.......,NSP(NSeep)                (number of nodes in each s.f.)
+    15 
+NP(i,1),NP(i,2),.....,NP(i,NSP(i))     (nodal number array of i-th s.f.)
+     1      2      3      4      5      6      7      8      9     10 
+    11     12     13     14     15 
+*** BLOCK ?: Solute transport boundary conditions *****************************
+KodCB(1),KodCB(2),.....,KodCB(NumBP)
+ -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1   2   2   2   2   2 
+  2   2   2   1   1   1   1   1   1   1 
+*** End of input file 'BOUNDARY.IN' *******************************************

@@ -1,0 +1,31 @@
+Pcp_File_Version=2
+*** BLOCK A: BASIC INFORMATION *****************************************
+Heading
+Chamber simulation
+LUnit  TUnit  MUnit  (indicated units are obligatory for all input data)
+cm
+hours
+-
+Kat (0:horizontal plane, 1:axisymmetric vertical flow, 2:vertical plane)
+  2
+MaxIt   TolTh   TolH InitH/W  (max. number of iterations and tolerances)
+  40   0.0002    0.1     f
+lWat lChem lSink Short Flux lScrn AtmIn lTemp lWTDep lEquil lExtGen lInv
+ t     f     f     t     t    t     f     f     f      t      t      f
+*** BLOCK B: MATERIAL INFORMATION **************************************
+NMat    NLay    hTab1   hTabN
+  2       2      0.01     200
+    Model   Hysteresis
+      0          0
+  thr    ths   Alfa     n         Ks      l
+  0.02  0.348 0.0453  12.18        258    0.5 
+ 0.012  0.348  0.151   7.35       1811    0.5 
+*** BLOCK C: TIME INFORMATION ******************************************
+        dt       dtMin       dtMax     DMul    DMul2  ItMin ItMax  MPL
+     1e-010 2.77778e-011           1     1.1     0.2     3     7     8
+      tInit        tMax
+          0          50
+TPrint(1),TPrint(2),...,TPrint(MPL)
+          1           5          10          15          20          30 
+         40          50 
+*** END OF INPUT FILE 'SELECTOR.IN' ************************************

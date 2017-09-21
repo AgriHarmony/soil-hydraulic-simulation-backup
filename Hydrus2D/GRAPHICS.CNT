@@ -1,0 +1,56 @@
+:Base GRAPHICS.hlp
+1 Graphics Module
+2 Contents=IDH_CONTENTS
+1 File Menu Commands
+2 File Menu Commands=menu_file
+2 Print Options=HID_FILE_PRINT_OPTIONS
+2 Print Graph=Print_Graph
+2 Print Preview=AFX_HIDW_PREVIEW_BAR
+2 Print Setup=AFX_HIDD_PRINTSETUP
+2 Copy to Clipboard=HID_COPY_TO_CLIPBOARD
+2 Close Module=HID_APP_EXIT
+1 View Menu Commands
+2 View Menu Commands=menu_view
+2 View Toolbar=HID_VIEW_TOOLBAR
+2 View Status Bar=HID_VIEW_STATUS_BAR
+2 Enlarge View=HID_VIEW_ENLARGE
+2 Reduce View=HID_VIEW_REDUCE
+2 Zoom=HID_VIEW_ZOOM
+2 Previous Zoom=HID_VIEW_PREVIOUS
+2 ViewPort=HID_VIEW_WINDOW
+2 Stretching Factors XY=HID_OPTIONS_DISPLAY_SF
+2 Redraw Window=HID_VIEW_REDRAW
+1 Quantity Menu Commands
+2 Quantity Menu Commands=menu_quantity
+1 Time Menu Commands
+2 Time Menu=menu_time_layer
+2 First Time Level=HID_TIME_FIRST
+2 Last Time Level=HID_TIME_LAST
+2 Next Time Level=HID_TIME_NEXT
+2 Previous Time Level=HID_TIME_PREV
+2 Flow Animation=HID_TIME_ANIMATE
+1 2D-Graph Menu Commands
+2 2D-Graph Menu Commands=menu_graph_type
+2 Display Mesh=HID_GRAPHTYPE_MESH
+2 Isolines=HID_GRAPHTYPE_IZOLINES
+2 Velocity Vectors=HID_GRAPHTYPE_VECTORS
+2 Spectrum=HID_GRAPHTYPE_SPECTRUM
+2 Spectrum and Isolines=HID_GRAPHTYPE_SPECTRUM_LINES
+1 1D_Graph Menu Commands
+2 1D-Graph Menu Commands=menu_1D_graph
+2 Boundary - Whole Curve=HID_GRAPH_BOUNDARY
+2 Boundary - Indexes=HID_GRAPH_PARTBDR
+2 Boundary - Selection=HID_GRAPH_SELECTBDR
+1 Tools Menu Commands
+2 Tools Menu Commands=menu_tools
+1 Options Menu Commands
+2 Options Menu Commands=menu_options
+2 Isolines Parameters=HID_OPTIONS_INCREMENT
+2 Velocity Vector Parameters=HID_OPTIONS_VELOCITY
+2 Display Options=HID_OPTIONS_DISPLAY
+2 Grid Setting=HID_OPTIONS_GRID
+2 Color Pallete=HID_OPTIONS_PALETTES
+2 Reverse Pallete Colors=HID_OPTIONS_REVERSE_COLORS
+2 Local or Global Scale=HID_OPTIONS_ALL_LEVELS
+1 Help Menu Commands
+2 Help Menu Commands=menu_help

@@ -1,0 +1,34 @@
+Pcp_File_Version=2
+*** BLOCK A: BASIC INFORMATION *****************************************
+Heading
+Welcome to HYDRUS-2D
+LUnit  TUnit  MUnit  (indicated units are obligatory for all input data)
+cm
+days
+mmol
+Kat (0:horizontal plane, 1:axisymmetric vertical flow, 2:vertical plane)
+  0
+MaxIt   TolTh   TolH InitH/W  (max. number of iterations and tolerances)
+  20   0.0005      1     f
+lWat lChem lSink Short Flux lScrn AtmIn lTemp lWTDep lEquil lExtGen lInv
+ t     f     f     f     t    t     f     f     f      t      t      f
+*** BLOCK B: MATERIAL INFORMATION **************************************
+NMat    NLay    hTab1   hTabN
+  1       1    1e-006   10000
+    Model   Hysteresis
+      1          0
+  thr    ths   Alfa     n         Ks      l     thm    tha    thk       Kk
+ 0.078   0.43  0.036   1.56      24.96    0.5   0.43  0.078   0.43      24.96 
+*** BLOCK C: TIME INFORMATION ******************************************
+        dt       dtMin       dtMax     DMul    DMul2  ItMin ItMax  MPL
+     0.0001      1e-005         500     1.3     0.7     3     7    32
+      tInit        tMax
+          0        7500
+TPrint(1),TPrint(2),...,TPrint(MPL)
+          1         2.5           5          10          25          50 
+         75         100         150         200         250         300 
+        350         400         450         500         600         700 
+        800         900        1000        1250        1500        1750 
+       2000        2250        2500        3000        4000        5000 
+       6000        7500 
+*** END OF INPUT FILE 'SELECTOR.IN' ************************************

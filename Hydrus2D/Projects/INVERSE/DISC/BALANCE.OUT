@@ -1,0 +1,63 @@
+ Tension permeameter infiltration test - Riverside - 10 cm, 1 run        
+ 
+ Program HYDRUS2
+ Date:  30. 6.    Time:  12:39:59
+ Time dependent boundary conditions
+ Axisymmetric flow, V = L*L*L
+ Units: L = cm   , T = sec  , M = -    
+
+ Time [T]             Total     Sub-region number ...
+
+       .0000                      1
+ Area    [V]          .393E+06   .393E+06
+ Volume  [V]          .302E+05   .302E+05
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]         -.240E+02      -24.0
+
+   1624.0000                      1
+ Area    [V]          .393E+06   .393E+06
+ Volume  [V]          .298E+05   .298E+05
+ InFlow  [V/T]       -.312E+00  -.312E+00
+ hMean   [L]         -.243E+02      -24.3
+ WatBalT [V]          .136E+02
+ WatBalR [%]             2.116
+
+   3248.0000                      1
+ Area    [V]          .393E+06   .393E+06
+ Volume  [V]          .293E+05   .293E+05
+ InFlow  [V/T]       -.306E+00  -.306E+00
+ hMean   [L]         -.246E+02      -24.6
+ WatBalT [V]          .202E+02
+ WatBalR [%]             1.585
+
+   4872.0000                      1
+ Area    [V]          .393E+06   .393E+06
+ Volume  [V]          .289E+05   .289E+05
+ InFlow  [V/T]       -.245E+00  -.245E+00
+ hMean   [L]         -.249E+02      -24.9
+ WatBalT [V]          .246E+02
+ WatBalR [%]             1.202
+
+   6496.0000                      1
+ Area    [V]          .393E+06   .393E+06
+ Volume  [V]          .285E+05   .285E+05
+ InFlow  [V/T]       -.443E-01  -.443E-01
+ hMean   [L]         -.253E+02      -25.3
+ WatBalT [V]          .287E+02
+ WatBalR [%]             1.032
+
+   8120.0000                      1
+ Area    [V]          .393E+06   .393E+06
+ Volume  [V]          .282E+05   .282E+05
+ InFlow  [V/T]       -.197E+00  -.197E+00
+ hMean   [L]         -.256E+02      -25.6
+ WatBalT [V]          .343E+02
+ WatBalR [%]              .944
+
+  10505.0000                      1
+ Area    [V]          .393E+06   .393E+06
+ Volume  [V]          .277E+05   .277E+05
+ InFlow  [V/T]       -.210E+00  -.210E+00
+ hMean   [L]         -.260E+02      -26.0
+ WatBalT [V]          .378E+02
+ WatBalR [%]              .787

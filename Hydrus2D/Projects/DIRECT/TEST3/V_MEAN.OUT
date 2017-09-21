@@ -1,0 +1,14 @@
+ Comparison with the 2-D analytical solution                             
+ 
+ Program HYDRUS2
+ Date:  10.12.    Time:  17: 4:45
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = m    , T = days , M = -    
+ All fluxes (v) are positive out of the region
+
+     Time       rAtm       rRoot      vAtm       vRoot      vKode3     vKode1     vSeep      vDrain     vBottom...
+      [T]      [L/T]       [L/T]     [L/T]       [L/T]       [V/T]      [V/T]     [V/T]       [V/T]      [V/T]
+
+      1.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.360E+02   .360E+02   .000E+00   .000E+00
+end

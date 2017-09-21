@@ -1,0 +1,17 @@
+ Station_ID         Station_Name WMO_CODE         Country_Name Longitude  Latitude Elevation (m)
+   ZW71HRR0   HARARE-(BELVEDERE)    67774             ZIMBABWE     31.02    -17.83          1472
+
+ Code     Element_Name Begin_Y   Nbr_Y     Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec Remarks
+  201   Temp__mean_max  -99999      25      26    25.8    26.1    25.6    23.7    21.5    21.6    24.1      27      29    27.3    26.2 CIAT82.  [FAO302]
+  202   Temp__mean_min  -99999      25    15.7    15.6    14.2    12.5     9.2     6.8     6.5     8.6    11.5    14.6    15.4    15.7 CIAT82.  [FAO302]
+  203    Temp_mean_mly    1949      36    20.4    20.3    19.9    18.8    16.1    13.7    13.7    15.9      19    21.3    20.9    20.4 available data: 30(29) [FAO777]
+  292  Temp_Mean_Night  -99999  -99999    18.7    18.6    17.7    16.5    13.7    11.4    11.4    13.7    16.7    19.5    19.5    19.3 FAO misc.  [FAO301]
+  293  Temp_Mean_Daytm  -99999  -99999    22.6    22.5    22.2    21.4      19    16.8    16.8    19.2    22.1    24.4    23.5    22.9 FAO misc.  [FAO301]
+  208 Precip_Total_Mly    1961      30     192     178      99      41       8       3       2       3       7      42      93     183 available data: 30(30) [FAO777]
+  251  Temp_dp_mea_mly  -99999      25    15.6    15.8    13.9    11.8       8     5.2     3.4     4.3     5.8     9.1    12.6    14.8 CIAT86.Estimated:CIAT44.  [FAO302]
+  258     RH__mean_mly  -99999      30      82      83      75      62      54      55      51      49      51      59      78      83 CIAT32.  [FAO302]
+  298  Vap_Pr_mean_mly  -99999  -99999    17.8    18.1      16      14      11       9     7.9     8.5     9.8    11.8      15    16.9 FAO misc.  [FAO301]
+  294   PET_total__mly  -99999  -99999     126     110     120     108      99      84     107     140     176     199     147     134 FAO misc.  [FAO301]
+  297 Wind_sp_mean_mly  -99999      27     2.6     2.6     2.8     2.8     2.8       3     3.3     3.5     3.9     3.8     3.2     2.9 CIAT82.Estimated:CIAT71.  [FAO302]
+  296  Sunsh_fract_mly  -99999      30    0.49    0.48    0.57    0.71    0.77    0.77     0.8    0.81     0.8    0.73    0.54    0.47 CIAT32.Estimated:CIAT18.  [FAO302]
+

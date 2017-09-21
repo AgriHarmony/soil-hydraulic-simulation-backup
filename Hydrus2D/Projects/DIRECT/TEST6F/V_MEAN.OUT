@@ -1,0 +1,14 @@
+ Solute transport with kinetic linear cation adsorption                  
+ 
+ Program HYDRUS2
+ Date:  10.12.    Time:  17: 9:31
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = cm   , T = days , M = mmol 
+ All fluxes (v) are positive out of the region
+
+     Time       rAtm       rRoot      vAtm       vRoot      vKode3     vKode1     vSeep      vDrain     vBottom...
+      [T]      [L/T]       [L/T]     [L/T]       [L/T]       [V/T]      [V/T]     [V/T]       [V/T]      [V/T]
+
+       .0100   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.171E+02   .171E+02   .000E+00   .000E+00
+end

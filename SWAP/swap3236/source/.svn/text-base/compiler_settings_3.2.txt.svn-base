@@ -1,0 +1,26 @@
+=== COMPILER.TXT ================================================================
+
+==============================================================================
+This file is part of:
+
+program    :  SWAP
+version    :  3.2.26
+releasedate:  14-August-2009
+platform   :  windowsXP
+configuration: 1.0
+
+The executable Swap.exe was created with Compaq Visual Fortran Professional Edition 6.6.A
+The compiler settings of the executable are:
+1. compile using
+/check:bounds /compile_only /fltconsistency /fpe:0 /fpscomp:general /fpscomp:logicals 
+/fpscomp:ioformat /fpscomp:ldio_spacing /nologo /traceback /warn:nofileopt 
+/module:"Release/" /object:"Release/"
+2 link using
+kernel32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Swap32.pdb" 
+/machine:I386 /out:"Release/Swap32.exe"
+
+J.G. (Joop) Kroes
+ALTERRA
+==============================================================================
+
+=== end of COMPILER.TXT  ========================================================

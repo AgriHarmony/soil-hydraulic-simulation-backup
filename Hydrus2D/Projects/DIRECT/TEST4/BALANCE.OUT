@@ -1,0 +1,66 @@
+ Solute transport with nitrification chain                               
+ 
+ Program HYDRUS2
+ Date:  11.12.    Time:  14:23:48
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = cm   , T = days , M = -    
+
+ Time [T]             Total     Sub-region number ...
+
+       .0000                      1
+ Area    [V]          .200E+03   .200E+03
+ Volume  [V]          .200E+03   .200E+03
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .000E+00         .0
+ ConcVol [VM/L3] 1    .000E+00   .000E+00
+ cMean   [M/L3]  1    .000E+00   .000E+00
+ ConcVol [VM/L3] 2    .000E+00   .000E+00
+ cMean   [M/L3]  2    .000E+00   .000E+00
+ ConcVol [VM/L3] 3    .000E+00   .000E+00
+ cMean   [M/L3]  3    .000E+00   .000E+00
+
+     50.0000                      1
+ Area    [V]          .200E+03   .200E+03
+ ConcVol [VM/L3] 1    .442E+02   .442E+02
+ cMean   [M/L3]  1    .111E+00   .111E+00
+ ConcVol [VM/L3] 2    .181E+01   .181E+01
+ cMean   [M/L3]  2    .903E-02   .903E-02
+ ConcVol [VM/L3] 3    .395E+01   .395E+01
+ cMean   [M/L3]  3    .198E-01   .198E-01
+ CncBalT [VM/L3] 1   -.111E+00
+ CncBalR [%]     1        .199
+ CncBalT [VM/L3] 2   -.903E-01
+ CncBalR [%]     2        .204
+ CncBalT [VM/L3] 3   -.191E-05
+ CncBalR [%]     3        .000
+
+    100.0000                      1
+ Area    [V]          .200E+03   .200E+03
+ ConcVol [VM/L3] 1    .787E+02   .787E+02
+ cMean   [M/L3]  1    .197E+00   .197E+00
+ ConcVol [VM/L3] 2    .362E+01   .362E+01
+ cMean   [M/L3]  2    .181E-01   .181E-01
+ ConcVol [VM/L3] 3    .177E+02   .177E+02
+ cMean   [M/L3]  3    .885E-01   .885E-01
+ CncBalT [VM/L3] 1   -.197E+00
+ CncBalR [%]     1        .162
+ CncBalT [VM/L3] 2   -.181E+00
+ CncBalR [%]     2        .230
+ CncBalT [VM/L3] 3   -.572E-05
+ CncBalR [%]     3        .000
+
+    200.0000                      1
+ Area    [V]          .200E+03   .200E+03
+ ConcVol [VM/L3] 1    .126E+03   .126E+03
+ cMean   [M/L3]  1    .316E+00   .316E+00
+ ConcVol [VM/L3] 2    .613E+01   .613E+01
+ cMean   [M/L3]  2    .306E-01   .306E-01
+ ConcVol [VM/L3] 3    .673E+02   .673E+02
+ cMean   [M/L3]  3    .336E+00   .336E+00
+ CncBalT [VM/L3] 1   -.316E+00
+ CncBalR [%]     1        .116
+ CncBalT [VM/L3] 2   -.306E+00
+ CncBalR [%]     2        .218
+ CncBalT [VM/L3] 3   -.163E-01
+ CncBalR [%]     3        .013

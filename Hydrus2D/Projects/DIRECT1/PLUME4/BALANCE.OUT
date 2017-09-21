@@ -1,0 +1,149 @@
+ Water flow to a stream - 3                                              
+ 
+ Program HYDRUS2
+ Date:  17. 2.    Time:  11:45:44
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = cm   , T = days , M = mmol 
+
+ Time [T]             Total     Sub-region number ...
+
+    100.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .677E+06   .677E+06
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .148E+03      148.3
+ ConcVol [VM/L3] 1    .402E+05   .402E+05
+ cMean   [M/L3]  1    .588E-01   .588E-01
+
+    200.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .673E+06   .673E+06
+ InFlow  [V/T]       -.172E+01  -.172E+01
+ hMean   [L]          .137E+03      136.6
+ ConcVol [VM/L3] 1    .403E+05   .403E+05
+ cMean   [M/L3]  1    .595E-01   .595E-01
+ WatBalT [V]         -.207E+02
+ WatBalR [%]              .011
+ CncBalT [VM/L3] 1    .102E+03
+ CncBalR [%]     1        .270
+
+    300.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .673E+06   .673E+06
+ InFlow  [V/T]       -.211E-01  -.211E-01
+ hMean   [L]          .137E+03      136.6
+ ConcVol [VM/L3] 1    .403E+05   .403E+05
+ cMean   [M/L3]  1    .594E-01   .594E-01
+ WatBalT [V]         -.204E+02
+ WatBalR [%]              .005
+ CncBalT [VM/L3] 1    .126E+03
+ CncBalR [%]     1        .200
+
+    400.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .673E+06   .673E+06
+ InFlow  [V/T]       -.763E-03  -.763E-03
+ hMean   [L]          .137E+03      136.6
+ ConcVol [VM/L3] 1    .403E+05   .403E+05
+ cMean   [M/L3]  1    .593E-01   .593E-01
+ WatBalT [V]         -.196E+02
+ WatBalR [%]              .003
+ CncBalT [VM/L3] 1    .119E+03
+ CncBalR [%]     1        .161
+
+    500.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .673E+06   .673E+06
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .137E+03      136.6
+ ConcVol [VM/L3] 1    .403E+05   .403E+05
+ cMean   [M/L3]  1    .592E-01   .592E-01
+ WatBalT [V]         -.187E+02
+ WatBalR [%]              .003
+ CncBalT [VM/L3] 1    .113E+03
+ CncBalR [%]     1        .145
+
+    600.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .673E+06   .673E+06
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .137E+03      136.6
+ ConcVol [VM/L3] 1    .392E+05   .392E+05
+ cMean   [M/L3]  1    .577E-01   .577E-01
+ WatBalT [V]         -.179E+02
+ WatBalR [%]              .002
+ CncBalT [VM/L3] 1    .130E+03
+ CncBalR [%]     1        .166
+
+    700.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .673E+06   .673E+06
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .137E+03      136.6
+ ConcVol [VM/L3] 1    .320E+05   .320E+05
+ cMean   [M/L3]  1    .471E-01   .471E-01
+ WatBalT [V]         -.169E+02
+ WatBalR [%]              .002
+ CncBalT [VM/L3] 1    .169E+03
+ CncBalR [%]     1        .235
+
+    800.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .673E+06   .673E+06
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .137E+03      136.6
+ ConcVol [VM/L3] 1    .188E+05   .188E+05
+ cMean   [M/L3]  1    .278E-01   .278E-01
+ WatBalT [V]         -.159E+02
+ WatBalR [%]              .001
+ CncBalT [VM/L3] 1    .219E+03
+ CncBalR [%]     1        .372
+
+    900.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .673E+06   .673E+06
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .137E+03      136.6
+ ConcVol [VM/L3] 1    .867E+04   .867E+04
+ cMean   [M/L3]  1    .130E-01   .130E-01
+ WatBalT [V]         -.150E+02
+ WatBalR [%]              .001
+ CncBalT [VM/L3] 1    .251E+03
+ CncBalR [%]     1        .513
+
+   1000.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .673E+06   .673E+06
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .137E+03      136.6
+ ConcVol [VM/L3] 1    .420E+04   .420E+04
+ cMean   [M/L3]  1    .635E-02   .635E-02
+ WatBalT [V]         -.141E+02
+ WatBalR [%]              .001
+ CncBalT [VM/L3] 1    .257E+03
+ CncBalR [%]     1        .580
+
+   1100.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .673E+06   .673E+06
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .137E+03      136.6
+ ConcVol [VM/L3] 1    .226E+04   .226E+04
+ cMean   [M/L3]  1    .344E-02   .344E-02
+ WatBalT [V]         -.132E+02
+ WatBalR [%]              .001
+ CncBalT [VM/L3] 1    .258E+03
+ CncBalR [%]     1        .606
+
+   1200.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .673E+06   .673E+06
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .137E+03      136.6
+ ConcVol [VM/L3] 1    .127E+04   .127E+04
+ cMean   [M/L3]  1    .194E-02   .194E-02
+ WatBalT [V]         -.123E+02
+ WatBalR [%]              .001
+ CncBalT [VM/L3] 1    .257E+03
+ CncBalR [%]     1        .619

@@ -1,0 +1,25 @@
+Pcp_File_Version=2
+*** BLOCK ?: BOUNDARY INFORMATION *********************************************
+    NumBP     NObs  SeepF  FreeD DrainF  qQWLF
+       39        0      t      f      f      f
+Node Number Array
+      1      60      61      62      63      64      65      66      67      68 
+     69      70      71      72      73      74      75      76      77     160 
+    161     162     163     164     165     166     167     168     169     170 
+    171     172     173     174     175     176     177     178     179 
+Width Array
+1.66666 1.72549 3.39706 3.28922 3.18137 3.07353 2.96569 2.85784    2.75 2.64216 
+2.53431 2.42647 2.31863 2.21078 2.10294  1.9951 1.88725 1.77941 0.862745 0.833336 
+1.71053 1.79824 1.88596 1.97369 2.06141 2.14912 2.23684 2.32456 2.41228     2.5 
+2.58772 2.67544 2.76316 2.85087 2.93859 3.02631 3.11404 3.20176 3.28947 
+Length of soil surface associated with transpiration
+              0
+*** BLOCK E: SEEPAGE INFORMATION (only if SeepF =.true.) *********************
+NSeep                                     (number of s.f. expected to develop)
+  1
+NSP(1),NSP(2),.......,NSP(NSeep)                (number of nodes in each s.f.)
+    18 
+NP(i,1),NP(i,2),.....,NP(i,NSP(i))     (nodal number array of i-th s.f.)
+    60     61     62     63     64     65     66     67     68     69 
+    70     71     72     73     74     75     76     77 
+*** End of input file 'BOUNDARY.IN' *******************************************

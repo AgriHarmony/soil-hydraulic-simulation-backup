@@ -1,0 +1,48 @@
+! File VersionID:
+!   $Id: Arrays.fi 203 2011-10-20 12:00:27Z kroes006 $
+! ----------------------------------------------------------------------
+      INTEGER    MACP, MADR, MAHO, MAIRG, MABBC, MAOWL, MAWLP, MAWLS
+      INTEGER    MACROP, MAOUT, MASCALE, MADM, MAMP, MADAY, MAGRS, MRAIN
+      INTEGER    MASTEQ, MATAB, MAYRS, NMETFILE, MAMTE
+! --- maximum number of years in the simulation period
+      PARAMETER  (MAYRS = 200)
+! --- maximum number of crops
+      PARAMETER  (MACROP = 200)
+! --- maximum number of compartments
+      PARAMETER  (MACP = 5000)
+! --- maximum number of days in the simulation period
+      PARAMETER  (MADAY = MAYRS*366)
+! --- maximum number of drainage systems
+      PARAMETER  (MADR = 5)
+! --- maximum number of growth stages
+      PARAMETER  (MAGRS = 366)
+! --- maximum number of horizons
+      PARAMETER  (MAHO = 200)
+! --- maximum number of time-dependent values for bottom boundary conditions
+      PARAMETER  (MABBC = 20*366)
+! --- maximum number of scaling factors
+      PARAMETER  (MASCALE = 100)
+! --- maximum number of rainfall records in case of detailed rainfall
+      PARAMETER  (MRAIN = 40000)
+! --- maximum number of applied irrigations
+      PARAMETER  (MAIRG = 10000)
+! --- maximum number of specified output dates
+      PARAMETER  (MAOUT = 3000)
+! --- maximum number of Open Water Levels (basic drainage routine)
+      PARAMETER  (MAOWL = 10*366)
+! --- maximum number of data pairs in input tables for soil hydraulica relations
+      PARAMETER  (MATAB = 1000)
+! --- maximum number of water levels prim. system (ext. dr.)
+      PARAMETER  (MAWLP = 10*366)
+! --- maximum number of water levels sec. system (ext. dr.)
+      PARAMETER  (MAWLS = 10*366)
+! --- maximum number of surfacewater management periods (ext. dr.)
+      PARAMETER  (MAMP = 10*366)
+! --- maximum number of surfacewater management table entries (ext. dr.)
+      PARAMETER  (MAMTE = 25)
+! --- maximum number of macropore domains
+      PARAMETER  (MADM = 20)
+! --- maximum number of static equilibrium relations
+      PARAMETER  (MASTEQ = 10000)
+! --- maximum number of weather records in one year (48 per day)
+      PARAMETER  (NMETFILE = 17568)

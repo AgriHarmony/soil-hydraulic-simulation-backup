@@ -1,0 +1,3 @@
+addpath('./richards.m');
+
+richards;

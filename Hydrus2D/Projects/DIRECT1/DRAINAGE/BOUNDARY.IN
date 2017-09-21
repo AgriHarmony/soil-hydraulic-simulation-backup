@@ -1,0 +1,32 @@
+Pcp_File_Version=2
+*** BLOCK ?: BOUNDARY INFORMATION *********************************************
+    NumBP     NObs  SeepF  FreeD DrainF  qQWLF
+       21        4      f      f      t      f
+Node Number Array
+     46      47      48      49      50      51      52      53      54      55 
+     56      57      58      59      60      61      62      63      64      65 
+     66 
+Width Array
+    1.5       5      11      20    27.5      30      30      30      30      30 
+     30      30      30      30      30      30      30      30    27.5      15 
+    2.5 
+Length of soil surface associated with transpiration
+            500
+Observation nodes Node(1,....NObs)
+   280    331    443    517 
+*** BLOCK F: DRAIN INFORMATION *****************************************************
+NDr    DrCorr                                         (number of drains)
+  1   1
+ND(1,..,NDr)                              (global numbers of the drains)
+    30 
+NElD(1,..,NDr)                (number of elements surrounding the drain)
+  4 
+EfDim(1..2) (effect.diameter and dimension of square representing drain)
+         1          6
+KElDr(i,1),..,KElDr(i,NElD(i))  (element numbers surrounding i-th drain)
+   359    360    399    400 
+*** BLOCK ?: Solute transport boundary conditions *****************************
+KodCB(1),KodCB(2),.....,KodCB(NumBP)
+ -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 
+ -1 
+*** End of input file 'BOUNDARY.IN' *******************************************

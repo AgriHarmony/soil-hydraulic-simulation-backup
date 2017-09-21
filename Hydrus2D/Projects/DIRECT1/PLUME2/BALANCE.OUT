@@ -1,0 +1,63 @@
+ Water flow to a stream - 1                                              
+ 
+ Program HYDRUS2
+ Date:  17. 2.    Time:  13:28:22
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = cm   , T = days , M = mmol 
+
+ Time [T]             Total     Sub-region number ...
+
+       .0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .665E+06   .665E+06
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .122E+03      122.2
+
+       .5000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .666E+06   .666E+06
+ InFlow  [V/T]        .162E+04   .162E+04
+ hMean   [L]          .125E+03      125.2
+ WatBalT [V]         -.643E+00
+ WatBalR [%]              .034
+
+      1.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .667E+06   .667E+06
+ InFlow  [V/T]        .135E+04   .135E+04
+ hMean   [L]          .127E+03      126.7
+ WatBalT [V]         -.697E+00
+ WatBalR [%]              .021
+
+     10.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .673E+06   .673E+06
+ InFlow  [V/T]        .454E+03   .454E+03
+ hMean   [L]          .139E+03      139.5
+ WatBalT [V]         -.224E+01
+ WatBalR [%]              .009
+
+     25.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .676E+06   .676E+06
+ InFlow  [V/T]        .100E+03   .100E+03
+ hMean   [L]          .146E+03      146.4
+ WatBalT [V]         -.132E+01
+ WatBalR [%]              .002
+
+     50.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .677E+06   .677E+06
+ InFlow  [V/T]        .663E+01   .663E+01
+ hMean   [L]          .148E+03      148.2
+ WatBalT [V]         -.131E+01
+ WatBalR [%]              .001
+
+    100.0000                      1
+ Area    [V]          .159E+07   .159E+07
+ Volume  [V]          .677E+06   .677E+06
+ InFlow  [V/T]        .210E-01   .210E-01
+ hMean   [L]          .148E+03      148.3
+ WatBalT [V]         -.575E+00
+ WatBalR [%]              .000

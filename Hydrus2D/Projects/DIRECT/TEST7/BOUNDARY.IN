@@ -1,0 +1,25 @@
+Pcp_File_Version=2
+*** BLOCK ?: BOUNDARY INFORMATION *********************************************
+    NumBP     NObs  SeepF  FreeD DrainF  qQWLF
+       22        4      f      f      f      f
+Node Number Array
+     20      21      38      39      40      41      42      43      44      45 
+     46      47      48      49      50      51      52      53      54      55 
+     56      57 
+Width Array
+3926.88 3926.88 5292.38 9443.35 7722.85 6237.97 4969.85 3899.65 3008.51 2277.59 
+1688.03    1221  857.63 579.083 366.508 263.886 238.754 261.792 300.537  273.31 
+157.075 26.1792 
+Length of soil surface associated with transpiration
+              0
+Observation nodes Node(1,....NObs)
+   125    192    293    305 
+*** BLOCK ?: Solute transport boundary conditions *****************************
+KodCB(1),KodCB(2),.....,KodCB(NumBP)
+ -2  -2  -7  -7  -7  -7  -7  -7  -7  -7  -7  -7  -7  -7  -7  -7  -7  -1  -1  -1 
+ -1  -1 
+*** BLOCK ?: Heat transport boundary conditions *******************************
+KodTB(1),KodTB(2),.....,KodTB(NumBP)
+ -3  -3  -2  -2  -2  -2  -2  -2  -2  -2  -2  -2  -2  -2  -2  -2  -2  -1  -1  -1 
+ -1  -1 
+*** End of input file 'BOUNDARY.IN' *******************************************

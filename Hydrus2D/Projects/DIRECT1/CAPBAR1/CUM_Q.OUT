@@ -1,0 +1,21 @@
+ Chamber simulation                                                      
+ 
+ Program HYDRUS2
+ Date:  22. 2.    Time:  17:13:43
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = cm   , T = hours, M = -    
+ All cumulative fluxes (CumQ) are positive out of the region
+
+       Time     CumQAP      CumQRP     CumQA      CumQR     CumQ3       CumQ1      CumQS      CumQ5       CumQ6 ....
+        [T]       [V]         [V]       [V]        [V]       [V]         [V]        [V]        [V]         [V]
+
+        1.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.161E+03   .000E+00   .000E+00   .169E+04
+        5.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.804E+03   .000E+00   .000E+00   .373E+04
+       10.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.161E+04   .000E+00   .000E+00   .470E+04
+       15.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.241E+04   .000E+00   .000E+00   .553E+04
+       20.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.322E+04   .000E+00   .000E+00   .636E+04
+       30.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.482E+04   .000E+00   .000E+00   .800E+04
+       40.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.643E+04   .000E+00   .000E+00   .963E+04
+       50.0000   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.804E+04   .000E+00   .000E+00   .112E+05
+end

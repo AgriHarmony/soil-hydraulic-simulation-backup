@@ -1,0 +1,17 @@
+=== AdditionalData.TXT =============
+
+This file is part of:
+program    :  SWAP
+version    :  3.2
+
+
+These folders with AdditionalData are supplied as examples.
+
+Generally these data files were prepared for Dutch circumstances. 
+Therefore you should adjust them to your local field situation. 
+
+
+The author(s) and the Alterra Institute disclaim all liability for 
+direct, incidental or consequential damage resulting from use of the data.
+
+=== end of AdditionalData.TXT =====

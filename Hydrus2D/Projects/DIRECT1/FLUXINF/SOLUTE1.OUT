@@ -1,0 +1,6 @@
+ All solute fluxes (SMean) and cumulative solute fluxes (ChemS) are positive out of the region
+
+       Time     CumCh0     CumCh1     CumChR     CumChN   --------------------  ChemS(i),i=1,NumKD  ----------------------  ---------------------  SMean(j),j=1,NumKD ----------------------
+        [T]    [VM/L3]    [VM/L3]    [VM/L3]    [VM/L3]                               [VM/L3]                                                           [VM/T/L3]
+
+end

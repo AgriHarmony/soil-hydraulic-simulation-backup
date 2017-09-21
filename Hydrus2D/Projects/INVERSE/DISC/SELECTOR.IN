@@ -1,0 +1,30 @@
+Pcp_File_Version=2
+*** BLOCK A: BASIC INFORMATION *****************************************
+Heading
+Tension permeameter infiltration test - Riverside - 10 cm, 1 run
+LUnit  TUnit  MUnit  (indicated units are obligatory for all input data)
+cm
+sec
+-
+Kat (0:horizontal plane, 1:axisymmetric vertical flow, 2:vertical plane)
+  1
+MaxIt   TolTh   TolH       (maximum number of iterations and tolerances)
+  21   0.0001    0.1       t
+lWat lChem lSink Short Flux lScrn AtmIn lTemp lWTDep lEquil lExtGen lInv
+ t     f     f     f     f    f     t     f     f      t      f      t
+*** BLOCK B: MATERIAL INFORMATION **************************************
+NMat    NLay    hTab1   hTabN
+  1       1      0.01    2000
+    Model   Hysteresis
+      0          0
+   thr    ths  Alfa     n        Ks        l
+ 0.065   0.32  0.075    1.89   0.001228   0.5 
+*** BLOCK C: TIME INFORMATION ******************************************
+        dt       dtMin       dtMax     DMul    DMul2  ItMin ItMax  MPL
+       0.01       0.001        6000     1.3  0.3333     3     7     5
+      tInit        tMax
+          0       10505
+TPrint(1),TPrint(2),...,TPrint(MPL)
+       1624        3248        4872        6496        8120 
+*** END OF INPUT FILE 'SELECTOR.IN' ************************************
+

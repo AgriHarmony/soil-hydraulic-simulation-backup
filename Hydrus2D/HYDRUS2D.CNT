@@ -1,0 +1,33 @@
+:Base HYDRUS2D.hlp
+1 Introduction
+2 Introduction to HYDRUS-2D=Introduction_to_HYDRUS2D
+1 Project Manager
+2 Project Manager=HID_FILE_PROJECT_MNG
+1 Meshgen-2D Module
+2 MESHGEN2D Module=MESHGEN_Module
+2 Edit Transport Domain Geometry=HID_PREPROCESSING_GEOMETRY
+2 Unstructured Mesh=MESHGEN2D_GENERATION
+1 Boundary Module
+2 Domain and Boundary Parameters=HID_PREPROCESSING_BOUNDARY
+1 Pre-Processing
+2 Pre-Processing Menu Commands=menu_main
+2 Main Processes=HID_MAIN_PROCESSES
+2 Inverse Solution=HID_MAIN_INVERSE
+2 Geometry Information=HID_MAIN_GEOM
+2 Time Information=HID_MAIN_TIME
+2 Print Information=HID_MAIN_PRINT
+2 Water Flow Parameters=Water_Flow_Parameters
+2 Solute Transport Parameters=Solute_Transport_Parameters
+2 Heat Transport Parameters=HID_PARAM_TEMP
+2 Root Water Uptake=Root_Water_Uptake
+2 Variable Boundary Condition=HID_PARAM_VARIABLE
+1 Post-Processing
+2 Post-Processing Menu Commands=menu_results
+2 GRAPHICS Module=GRAPHICS_Module
+2 Observation Points=HID_RES_OBSERPOINT
+2 Boundary Information=Boundary_Information
+2 Soil Hydraulic Properties=HID_RES_SOILPROPER
+2 Run-Time Information=HID_RES_RUNTIME
+2 Mass Balance Information=HID_RES_BALANCE
+2 Convert Output to ASCII=HID_RES_CONVERT
+2 Inverse Solution Information=HID_RES_INVERSE

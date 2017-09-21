@@ -1,0 +1,10 @@
+ Station_ID         Station_Name WMO_CODE         Country_Name Longitude  Latitude Elevation (m)
+   BE04CCLB                UCCLE    06447              BELGIUM      4.35      50.8           104
+
+ Code     Element_Name Begin_Y   Nbr_Y     Jan     Feb     Mar     Apr     May     Jun     Jul     Aug     Sep     Oct     Nov     Dec Remarks
+  201   Temp__mean_max  -99999  -99999     4.3     6.7    10.3    14.2    18.4      22    22.7    22.3    20.5    15.4     8.9     5.6 FAO misc.  [FAO301]
+  202   Temp__mean_min  -99999  -99999    -1.2     0.3     2.2     5.1     7.9    10.9    12.1    12.2    10.6     7.3     3.1     0.2 FAO misc.  [FAO301]
+  258     RH__mean_mly    1961       7    89.2    86.3    81.9    81.3    77.8    76.1    79.9      80    83.3    86.9    89.6    89.9 available data: 7(7)  [FAO777]
+  294   PET_total__mly  -99999  -99999       3      10      31      56      84      92      92      79      47      20       4       1 FAO misc.  [FAO301]
+  297 Wind_sp_mean_mly  -99999  -99999     3.5     3.4     3.3     3.1     2.6     2.4     2.2     2.4     2.2     2.6       3     3.4 FAO misc.  [FAO301]
+

@@ -1,0 +1,15 @@
+Pcp_File_Version=2
+*** BLOCK ?: BOUNDARY INFORMATION *********************************************
+    NumBP     NObs  SeepF  FreeD DrainF  qQWLF
+       26        0      f      t      f      f
+Node Number Array
+      1       2       3       4       5       6       7       8       9      10 
+     11      12      13      14      15      16      17      18      19      20 
+     53      54      55      56      57      58 
+Width Array
+ 9.4245  56.547 113.094 136.132 119.115 76.4432 62.0446 184.301 320.433 519.395 
+785.375  942.45 1099.52 1393.78 1892.23 2330.99 3257.74 5628.52 8010.83 4476.64 
+ 56.547 119.115 136.132 113.094  56.547  9.4245 
+Length of soil surface associated with transpiration
+              0
+*** End of input file 'BOUNDARY.IN' *******************************************

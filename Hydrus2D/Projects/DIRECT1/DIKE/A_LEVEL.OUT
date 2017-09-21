@@ -1,0 +1,10 @@
+ All cumulative fluxes (CumQ) are positive out of the region
+
+      Time      CumQAP     CumQRP     CumQA      CumQR      CumQ3        hAtm       hRoot     hKode3    A-level
+      [T]         [V]        [V]       [V]        [V]        [V]          [L]        [L]        [L] 
+
+      9.0000   .000E+00   .179E+04   .000E+00   .135E+04   .000E+00      -35.7      -12.9         .0       1
+     10.0000  -.713E+02   .199E+04  -.713E+02   .149E+04   .000E+00      -21.5       -7.9         .0       2
+     24.0000  -.713E+02   .478E+04  -.713E+02   .354E+04   .000E+00      -35.7      -12.9         .0       3
+     25.0000  -.143E+03   .498E+04  -.143E+03   .368E+04   .000E+00      -21.5       -7.9         .0       4
+end

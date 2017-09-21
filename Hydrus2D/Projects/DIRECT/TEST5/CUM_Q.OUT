@@ -1,0 +1,8 @@
+ Solute transport with nonlinear cation adsorption                       
+ 
+ Program HYDRUS2
+ Date:  10.12.    Time:  17:42: 6
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = cm   , T = days , M = mmol 
+end

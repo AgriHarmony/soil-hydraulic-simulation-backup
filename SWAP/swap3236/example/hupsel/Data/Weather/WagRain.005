@@ -1,0 +1,22 @@
+***************************************************************************
+* File name: WagRain.005
+* Contents:  Detailed rainfall input data
+***************************************************************************
+* Comments:  
+* 1. Input similar to tipping-bucket rain measurements:
+*     t1   rainamount_1
+*     t2   rainamount_2 (rain amount (mm) between t1 and t2)
+* 2. In order to calculate the correct rainfall intensity, the first rainfall 
+*    record should be at or before the start of the simulation
+***************************************************************************
+
+ Station     Day   Month   Year        Time       Amount
+*             nr      nr     nr           d           mm
+'Wageningen'   1       1   2005         0.0          0.0
+'Wageningen'   1       1   2005         0.1          5.0
+'Wageningen'   2       1   2005         0.2          0.0
+'Wageningen'   2       1   2005         0.3         10.0
+'Wageningen'   3       1   2005         0.4          0.0
+'Wageningen'   3       1   2005         0.6          5.0
+'Wageningen'   4       1   2005         0.2          0.0
+'Wageningen'   4       1   2005         0.4         10.0

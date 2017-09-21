@@ -1,0 +1,14 @@
+ Solute transport with nonlinear cation adsorption                       
+ 
+ Program HYDRUS2
+ Date:  10.12.    Time:  17:42: 6
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = cm   , T = days , M = mmol 
+ All fluxes (v) are positive out of the region
+
+     Time       rAtm       rRoot      vAtm       vRoot      vKode3     vKode1     vSeep      vDrain     vBottom...
+      [T]      [L/T]       [L/T]     [L/T]       [L/T]       [V/T]      [V/T]     [V/T]       [V/T]      [V/T]
+
+       .0020   .000E+00   .000E+00   .000E+00   .000E+00   .000E+00  -.649E+01   .649E+01   .000E+00   .000E+00
+end

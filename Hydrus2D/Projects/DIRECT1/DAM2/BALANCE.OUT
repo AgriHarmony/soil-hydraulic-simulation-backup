@@ -1,0 +1,101 @@
+ Flow under a dam                                                        
+ 
+ Program HYDRUS2
+ Date:  18. 2.    Time:  11:49:50
+ Time independent boundary conditions
+ Vertical plane flow, V = L*L
+ Units: L = m    , T = days , M = mmol 
+
+ Time [T]             Total     Sub-region number ...
+
+       .0000                      1
+ Area    [V]          .894E+04   .894E+04
+ Volume  [V]          .384E+04   .384E+04
+ InFlow  [V/T]        .000E+00   .000E+00
+ hMean   [L]          .305E+02       30.5
+ ConcVol [VM/L3] 1    .000E+00   .000E+00
+ cMean   [M/L3]  1    .000E+00   .000E+00
+
+     25.0000                      1
+ Area    [V]          .894E+04   .894E+04
+ ConcVol [VM/L3] 1    .464E+02   .464E+02
+ cMean   [M/L3]  1    .121E-01   .121E-01
+ CncBalT [VM/L3] 1    .128E-01
+ CncBalR [%]     1        .028
+
+     50.0000                      1
+ Area    [V]          .894E+04   .894E+04
+ ConcVol [VM/L3] 1    .928E+02   .928E+02
+ cMean   [M/L3]  1    .241E-01   .241E-01
+ CncBalT [VM/L3] 1    .242E-01
+ CncBalR [%]     1        .026
+
+    100.0000                      1
+ Area    [V]          .894E+04   .894E+04
+ ConcVol [VM/L3] 1    .186E+03   .186E+03
+ cMean   [M/L3]  1    .483E-01   .483E-01
+ CncBalT [VM/L3] 1    .487E-01
+ CncBalR [%]     1        .026
+
+    200.0000                      1
+ Area    [V]          .894E+04   .894E+04
+ ConcVol [VM/L3] 1    .186E+03   .186E+03
+ cMean   [M/L3]  1    .483E-01   .483E-01
+ CncBalT [VM/L3] 1    .155E+00
+ CncBalR [%]     1        .083
+
+    300.0000                      1
+ Area    [V]          .894E+04   .894E+04
+ ConcVol [VM/L3] 1    .185E+03   .185E+03
+ cMean   [M/L3]  1    .482E-01   .482E-01
+ CncBalT [VM/L3] 1    .314E+00
+ CncBalR [%]     1        .169
+
+    400.0000                      1
+ Area    [V]          .894E+04   .894E+04
+ ConcVol [VM/L3] 1    .180E+03   .180E+03
+ cMean   [M/L3]  1    .468E-01   .468E-01
+ CncBalT [VM/L3] 1    .449E+00
+ CncBalR [%]     1        .234
+
+    500.0000                      1
+ Area    [V]          .894E+04   .894E+04
+ ConcVol [VM/L3] 1    .164E+03   .164E+03
+ cMean   [M/L3]  1    .427E-01   .427E-01
+ CncBalT [VM/L3] 1    .558E+00
+ CncBalR [%]     1        .269
+
+    600.0000                      1
+ Area    [V]          .894E+04   .894E+04
+ ConcVol [VM/L3] 1    .140E+03   .140E+03
+ cMean   [M/L3]  1    .364E-01   .364E-01
+ CncBalT [VM/L3] 1    .615E+00
+ CncBalR [%]     1        .266
+
+    700.0000                      1
+ Area    [V]          .894E+04   .894E+04
+ ConcVol [VM/L3] 1    .113E+03   .113E+03
+ cMean   [M/L3]  1    .295E-01   .295E-01
+ CncBalT [VM/L3] 1    .617E+00
+ CncBalR [%]     1        .239
+
+    800.0000                      1
+ Area    [V]          .894E+04   .894E+04
+ ConcVol [VM/L3] 1    .891E+02   .891E+02
+ cMean   [M/L3]  1    .232E-01   .232E-01
+ CncBalT [VM/L3] 1    .589E+00
+ CncBalR [%]     1        .208
+
+    900.0000                      1
+ Area    [V]          .894E+04   .894E+04
+ ConcVol [VM/L3] 1    .690E+02   .690E+02
+ cMean   [M/L3]  1    .179E-01   .179E-01
+ CncBalT [VM/L3] 1    .560E+00
+ CncBalR [%]     1        .185
+
+   1000.0000                      1
+ Area    [V]          .894E+04   .894E+04
+ ConcVol [VM/L3] 1    .532E+02   .532E+02
+ cMean   [M/L3]  1    .138E-01   .138E-01
+ CncBalT [VM/L3] 1    .555E+00
+ CncBalR [%]     1        .174

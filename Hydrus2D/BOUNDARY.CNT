@@ -1,0 +1,61 @@
+:Base BOUNDARY.hlp
+1 Boundary Module
+2 Contents=IDH_CONTENTS
+1 File Menu Commands
+2 File Menu Commands=menu_file
+2 Save Data=HID_FILE_SAVEBDRC
+2 Transform to ASCII File=HID_FILE_TRANSFORM_ASCII
+2 Transform to Binary File=HID_FILE_TRANSFORM_BIN
+2 Print=HID_FILE_PRINT
+2 Print Preview=HID_FILE_PRINT_PREVIEW
+2 Print Setup=HID_FILE_PRINT_SETUP
+2 Copy to Clipboard=HID_PRINT_METAFILE
+2 Close Module=HID_APP_EXIT
+1 Edit Menu Commands
+2 Edit Menu Commands=Edit_menu
+2 Select Boundary or Region=HID_EDIT_SELECT
+2 Unselect=HID_EDIT_UNSELECT
+2 Unselect All=HID_EDIT_UNSELECT_ALL
+2 Condition Range=HID_EDIT_SETRANGE
+2 Condition Value=HID_EDIT_SETVALUE
+2 Condition Code=HID_EDIT_SETCODE
+2 Insert Observation Node=HID_ON_INSERT
+2 Delete Observation Node=HID_ON_DELETE
+2 Delete All Observation Noded=HID_ON_DELETE_ALL
+1 View Menu Commands
+2 View Menu Commands=menu_view
+2 View Toolbar=HID_VIEW_TOOLBAR
+2 View Status Bar=HID_VIEW_STATUS_BAR
+2 View All=HID_VIEW_DEFAULT
+2 Enlarge View=HID_VIEW_ENLARGE
+2 Reduce View=HID_VIEW_REDUCE
+2 Zoom=HID_VIEW_ZOOM
+2 Previous Zoom=HID_VIEW_PREVIOUS
+2 ViewPort=HID_VIEW_WINDOW
+2 Stretching Factors=HID_OPTIONS_DISPLAY_SF
+2 Redraw Window=HID_VIEW_REDRAW
+1 Condition Menu Commands
+2 Condition Menu Commands=Condition_menu
+2 Water Flow Boundary Conditions=HID_DOMAIN_WATER
+2 Solute Transport Boundary Conditions=HID_DOMAIN_SOLUTE
+2 Heat Transport Boundary Conditions=HID_DOMAIN_HEAT
+2 Material Spacial Distribution=HID_DOMAIN_MATERIAL
+2 Root Water Uptake Spatial Distribution=HID_DOMAIN_ROOT
+2 Nodal Recharge Spatial Distribution=HID_DOMAIN_RECHARGE
+2 Scaling Factors Spatial Distribution=HID_DOMAIN_SF
+2 Inital Conditions=HID_DOMAIN_INITCOND
+2 Local Anisotrophy Spatial Distribution=HID_DOMAIN_ANISOTROPY
+2 Observation Nodes=HID_DOMAIN_OBSNODES
+2 Drain Boundary Condition=HID_DOMAIN_DRAINS
+1 Options Menu Commands
+2 Options Menu Commands=Options_menu
+2 Display Options=HID_OPTIONS_DISPLAY
+2 Color Pallete=HID_OPTIONS_PALETTE
+2 Grid Setting=HID_OPTIONS_GRID
+2 Stochastic Distribution of Scaling Factors=HID_DOMAIN_STOCHASTIC_SF
+2 Subregions are equal to Materials=HID_OPTIONS_SUBREG
+2 Find=Find
+1 Help Menu Commands
+2 Help Menu Commands=menu_help
+2 Help Using Help=HID_CONTEXT_HELP
+2 About Boundary Module=HID_APP_ABOUT

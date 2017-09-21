@@ -1,0 +1,30 @@
+Pcp_File_Version=2
+*** BLOCK A: BASIC INFORMATION *****************************************
+Heading
+Tension permeameter infiltration test - loam - multistep
+LUnit  TUnit  MUnit  (indicated units are obligatory for all input data)
+cm
+sec
+-
+Kat (0:horizontal plane, 1:axisymmetric vertical flow, 2:vertical plane)
+  1
+MaxIt   TolTh   TolH InitH/W  (max. number of iterations and tolerances)
+  20   0.0005    0.1     t
+lWat lChem lSink Short Flux lScrn AtmIn lTemp lWTDep lEquil lExtGen lInv
+ t     f     f     f     t    f     t     f     f      t      f      t
+*** BLOCK B: MATERIAL INFORMATION **************************************
+NMat    NLay    hTab1   hTabN
+  1       1      0.01     200
+    Model   Hysteresis
+      0          0
+  thr    ths   Alfa     n         Ks      l
+  0.01   0.28   0.07    1.9      0.003    0.5 
+*** BLOCK C: TIME INFORMATION ******************************************
+        dt       dtMin       dtMax     DMul    DMul2  ItMin ItMax  MPL
+        0.1       0.001        6000     1.3  0.3333     3     7    10
+      tInit        tMax
+          0        6450
+TPrint(1),TPrint(2),...,TPrint(MPL)
+        645        1290        1935        2580        3225        3870 
+       4515        5160        5805        6450 
+*** END OF INPUT FILE 'SELECTOR.IN' ************************************
