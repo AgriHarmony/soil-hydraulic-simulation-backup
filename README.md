@@ -24,8 +24,10 @@ Full agricultural systems
 - [SWAP Model](http://www.swap.alterra.nl/)
 
 ## Drip Irrigation Specific Tool
-- [DIDAS](https://app.agri.gov.il/didas/)
-- [Drip-IrriWater](https://www.sciencedirect.com/science/article/pii/S0168169913001877)
+- [DIDAS](https://app.agri.gov.il/didas/),2015
+- [Drip-IrriWater](https://www.sciencedirect.com/science/article/pii/S0168169913001877),2013
+- [Neuro-Drip: estimation of subsurface wetting patterns for drip irrigation using neural networks](https://link.springer.com/article/10.1007/s00271-010-0214-8),2010
+- [WetUp: a software tool to display approximate wetting patterns from drippers](https://link.springer.com/article/10.1007/s00271-003-0078-2),2003
 
 ## Miscellaneous
 ### Water Balance
@@ -34,7 +36,6 @@ Full agricultural systems
 ### Others
 - chemflo2000_1
 - richards_matlab
-- wetup
 - [SAWCal: A user-friendly program for calculating soil available water quantities and physical quality indices](https://www.ars.usda.gov/ARSUserFiles/20200515/WinSRFR.pdf)
 
 # Guides
